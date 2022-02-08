@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Product Landing Page FCC</title>
 </head>
 <body>
     <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
@@ -19,14 +19,24 @@
         </nav>
     </header>
 
-    <h1>Making your ideas come true</h1>
-    <form id="form" action="https://www.freecodecamp.com/email-submit">
-        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
-        <button id="submit">Submit</button>
-    </form>
+    <div class="idea-text">
+        <h1>< Making your designs come alive /></h1>
+    </div>
+
+    <div class="form">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input type="email" id="email" name="email" placeholder=" Enter your email address" required>
+            <button id="submit">Sign up</button>
+        </form>
+    </div>  
 
     <section id="features">
-        <span>Features</span>
+        <div class="design">
+            <div class="design-img">
+                <img src="./images/design.png"/>
+                <p>It's simple, give us your design, we make it functional for you</p>
+            </div>
+        </div>
     </section>
 
     <section id="how-it-works">
@@ -37,5 +47,9 @@
     <section id="pricing">
         <span>Pricing</span>
     </section>
+
+    <footer>
+        <a href="https://www.flaticon.com/free-icons/coding" title="coding icons">Coding icons created by Freepik - Flaticon</a>
+    </footer>
 </body>
 </html>
