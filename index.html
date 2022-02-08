@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <title>Product Landing Page FCC</title>
 </head>
+
 <body>
     <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <header id="header">
-        <img src="images/logo.png" id="header-img" alt="company logo FuturIT"/>
+        <img src="images/logo.png" id="header-img" alt="company logo FuturIT" />
         <nav id="nav-bar">
             <a class="nav-link" href="#features">Features</a>
             <a class="nav-link" href="#how-it-works">How it works</a>
@@ -20,7 +24,9 @@
     </header>
 
     <div class="idea-text">
-        <h1>< Making your designs come alive /></h1>
+        <h1>
+            < Making your designs come alive />
+        </h1>
     </div>
 
     <div class="form">
@@ -28,28 +34,112 @@
             <input type="email" id="email" name="email" placeholder=" Enter your email address" required>
             <button id="submit">Sign up</button>
         </form>
-    </div>  
+    </div>
 
     <section id="features">
-        <div class="design">
-            <div class="design-img">
-                <img src="./images/design.png"/>
-                <p>It's simple, give us your design, we make it functional for you</p>
-            </div>
+        <div class="grid-one">
+            <img src="./images/design.png" />
+        </div>
+
+        <div class="grid-one-text">
+            <p>It's simple: give us your design, we make it functional for you</p>
+        </div>
+
+        <div class="grid-two">
+            <img src="./images/customizable.png" />
+        </div>
+
+        <div class="grid-two-text">
+            <p>Easily customizable: even if you don't know HTML or CSS, we put comments for you to understand what
+                you have to modify.</p>
+        </div>
+
+        <div class="grid-three">
+            <img src="./images/mobile-compatible.png" />
+        </div>
+
+        <div class="grid-three-text">
+            <p>Mobile Compatibility: adaptability to all kind and sizes of phones/tablets.</p>
+        </div>
+
+        <div class="grid-four">
+            <img src="./images/quality.png" />
+        </div>
+
+        <div class="grid-four-text">
+            <p>Top Quality Code: beautifully designed code, easy readable.</p>
         </div>
     </section>
 
     <section id="how-it-works">
-        <span>How it works</span>
-        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/QXjU9qTsYCc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/bmixiVwtDso"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
     </section>
 
     <section id="pricing">
-        <span>Pricing</span>
+        <div class="product" id="bronze">
+            <div class="level">Bronze</div>
+            <h2>$300</h2>
+            <ol>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+            </ol>
+            <button class="btn">Select</button>
+        </div>
+
+        <div class="product" id="silver">
+            <div class="level">Silver</div>
+            <h2>$600</h2>
+            <ol>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+            </ol>
+            <button class="btn">Select</button>
+        </div>
+
+        <div class="product" id="gold">
+            <div class="level">Gold</div>
+            <h2>$900</h2>
+            <ol>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+            </ol>
+            <button class="btn">Select</button>
+        </div>
+
+        <div class="product" id="diamond">
+            <div class="level">Diamond</div>
+            <h2>$1200</h2>
+            <ol>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+            </ol>
+            <button class="btn">Select</button>
+        </div>
     </section>
 
     <footer>
-        <a href="https://www.flaticon.com/free-icons/coding" title="coding icons">Coding icons created by Freepik - Flaticon</a>
+            <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        <div class="icons-credits">
+            <a href="https://www.flaticon.com/free-icons/coding" title="coding icons">Coding icons created by Freepik -
+            Flaticon</a>
+        </div>
+        <p>Copyright - psuar92 - 2022</p>
     </footer>
 </body>
+
 </html>
